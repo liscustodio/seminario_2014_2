@@ -1,0 +1,192 @@
+@import url("reset.css");
+
+body
+{
+	background: #FFF;
+	color: #111;
+	font-size: 13px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 15px 0;
+}
+
+a { color: #FD3809; text-decoration: none; }
+a:hover { color: #333; text-decoration: none; }
+
+/* Main Styles */
+
+#container
+{
+	margin: 0 auto;
+	width: 920px;
+}
+
+	#headercont
+	{
+		width: 920px;
+		height: 90px;
+		padding: 30px 0 0 0;
+	}
+	
+		#headercont h1
+		{
+			padding: 0 0 5px 0;
+			font-weight: normal;
+		}
+	
+			#headercont h1 a
+			{
+				font-size: 40px;
+				letter-spacing: -3px;
+			}
+		
+		#headercont p
+		{
+			font-size: 16px;
+		}
+		
+	#quotecont
+	{
+		width: 920px;
+		padding: 15px 0;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 29px;
+		line-height: 36px;
+		letter-spacing: -1px;
+		border-top: 1px dashed #AAA;
+	}
+	
+		#quotecont a
+		{
+			color: #FD3809;
+		}
+		
+		#quotecont a:hover
+		{
+			color: #333;
+		}
+	
+	#menucont
+	{
+		width: 920px;
+		height: 34px;
+		padding: 13px 0;
+		border-top: 1px dashed #AAA;
+		border-bottom: 1px dashed #AAA;
+	}
+	
+		#menucont ul
+		{
+			float: left;
+		}
+		
+		#menucont ul li
+		{
+			display: inline;
+		}
+		
+		#menucont ul li a
+		{
+			float: left;
+			line-height: 34px;
+			background: #FFF;
+			color: #111;
+			padding: 0 20px;
+			margin: 0 10px 0 0;
+			text-decoration: none;
+			font-size: 13px;
+			text-transform: uppercase;
+			
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		
+		#menucont ul li a:hover
+		{
+			background: #EEE url("../images/bg-menu-hover.png") repeat-x;
+			color: #FFF;
+		}
+		
+			#menucont ul li.active a
+			{
+				background: #FD3809 url("../images/bg-menu-active.png") repeat-x;
+				color: #FFF;
+			}
+	
+	#maincont
+	{
+		width: 920px;
+		line-height: 22px;
+		padding: 20px 0;
+		background: url("../images/bg-maincont.gif") repeat-y;
+	}
+
+			#maincont p { margin: 0 0 15px 0; }
+			#maincont h1, #maincont h2, #maincont h3, #maincont h4, #maincont h5 { margin: 0 0 15px 0; font-weight: normal; letter-spacing: -1px; }
+			#maincont h1 { font-size: 24px; }
+			#maincont h2 { font-size: 22px; }
+			#maincont h3 { font-size: 22px; }
+			#maincont h4 { font-size: 20px; }
+			#maincont h5 { font-size: 20px; }
+			
+			#maincont ul { margin: 0 0 15px 35px; list-style-type: square; }
+			#maincont ul li { padding: 0 0 0 2px; }
+			
+			#maincont ol { margin: 0 0 15px 35px; list-style-type: decimal; }
+			#maincont ol li { padding: 0 0 0 2px; }
+			
+			#maincont blockquote { background: #EEE; border-left: 3px solid #FD3809; padding: 15px; margin: 0 0 15px 0; font-size: 12px; font-style: italic; line-height: 18px; }
+
+	
+		#maincont #mainleft
+		{
+			float: left;
+			width: 580px;
+			padding: 0 40px 0 0;
+		}
+		
+		#maincont #mainright
+		{
+			float: left;
+			width: 300px;
+			text-align: right;
+		}
+		
+			#maincont #mainright ul.sidemenu
+			{
+				float: left;
+				width: 300px;
+				margin: 0 0 15px 0;
+				border-top: 1px dashed #AAA;
+				line-height: 16px;
+			}
+			
+			#maincont #mainright ul.sidemenu li
+			{
+				display: block;
+				list-style-type: none;
+			}
+			
+			#maincont #mainright ul.sidemenu li a
+			{
+				float: left;
+				width: 280px;
+				padding: 10px;
+				border-bottom: 1px dashed #AAA;
+				color: #FD3809;
+			}
+			
+			#maincont #mainright ul.sidemenu li a:hover
+			{
+				color: #111;
+			}
+	
+	#footercont
+	{
+		width: 920px;
+		padding: 20px 0;
+		font-size: 11px;
+		color: #777;
+		text-align: right;
+		border-top: 1px dashed #AAA;
+	}
