@@ -19,7 +19,6 @@
     <div id="menucont">
         <ul>
             <li><a href="#participantes">Participantes</a></li>
-            <li><a href="#temas">Temas</a></li>
             <li><a href="#trabalhos">Trabalhos Apresentados</a></li>
         </ul>
     </div>
@@ -27,36 +26,57 @@
     <div id="maincont" class="clearfix">
     	<div id="mainleft">
     	
-    			 <p> Descrição do seminário: Matéria a qual está relacionado, Hora, local, objetivo...</p>
+    			
             <h1><a name="participantes"></a>Participantes</h1>
             <ul>
-                <li>This is an unordered list - Item 1</li>
-                <li>This is an unordered list - Item 2</li>
-                <li>This is an unordered list - Item 3</li>
-                <li>This is an unordered list - Item 4</li>
+                <li>Prof. Sinesio Pesco</li>
+                <li>Yulieth Alzate</li>
+                <li>Lis Custodio</li>
+                <li>Rafael Sanabria</li>
+                <li>Viviana vargas</li>
             </ul>
             
-            <h1><a name="temas"></a>Temas</h1>
-            
-            <ul>
-                <li>This is an unordered list - Item 1</li>
-                <li>This is an unordered list - Item 2</li>
-                <li>This is an unordered list - Item 3</li>
-                <li>This is an unordered list - Item 4</li>
-            </ul>
-            
+
             <h1><a name="trabalhos"></a>Trabalhos Apresentados</h1>
             <ul>
-                <li>This is an unordered list - Item 1</li>
-                <li>This is an unordered list - Item 2</li>
-                <li>This is an unordered list - Item 3</li>
-                <li>This is an unordered list - Item 4</li>
+                <li><b>Expositor: </b> Viviana vargas 
+                </br>
+                <b>Artigo: </b>  Computing smooth surface contours with accurate topology - Benard et al.</li>
+                <p><a href="http://www.labri.fr/perso/pbenard/publications/contours.html">[Artigo]</a> 
+                  <a href="http://liscustodio.github.io/seminario_2014_2/presentations/viviana.zip">[Apresentação]</a></p>
+                
+                
+                <li> <b>Expositor: </b> Rafael Sanabria 
+                
+                </br>
+                <b>Artigo: </b> FLUVSIM: a program for object-based stochastic modeling of
+fluvial depositional systems- Deutscha and Tranb</li>
+ <p><a href=" http://www.sciencedirect.com/science/article/pii/S0098300401000759">[Artigo]</a> 
+ [Apresentação]</p>
             </ul>
 
             </div>
+            
         <div id="mainright">
             <h3>Próxima Semana</h3>
-            <p> Resumo do trabalho que será apresentado na semana seguinte</p>
+            
+            <p><b>Título:<font color="white">****</font> </b> FLUVSIM: a program for object-based stochastic modeling of
+fluvial depositional systems - Deutscha and Tranb</p>
+
+            <b>Expositor: </b> Rafael Sanabria<font color="white">**********************</font></p>
+            <p><b>Data: </b> Sexta-feira, 26 de setembro de 2014, 9:00<font color="white">***</font></p>
+            <p><b>Local: </b> Sala 856<font color="white">*********************************</font></p>
+            <p><b>Resumo:</b><font color="white">***************************************</font></p>
+            
+            
+            <p> This paper presents a FORTRAN program for hierarchical object-based modeling of complex fluvial facies. Unique
+features of this program include (1) a simple approach to place channel, levee, and crevasse sands within a matrix of
+floodplain shales, (2) templates for fast rasteringof fluvial facies objects, leadingto fast CPU times, and (3) the use of
+simulated annealingand non-random perturbation rules for conditioningto extensive soft facies-proportion data and
+local well data. Object-based modelingtechniques are widely applicable to modelingfluvial depositional systems. Public
+domain software for such modelingis rare and inflexible with respect to the variety of conditioningdata that can be
+handled. Commercial software is costly and also of limited flexibility. The fluvsim program overcomes many of these
+limitations with an accessible research code.</p>
             </div>
     </div>
 </div>
