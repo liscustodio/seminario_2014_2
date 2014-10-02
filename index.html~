@@ -19,6 +19,7 @@
     <div id="menucont">
         <ul>
             <li><a href="#participantes">Participantes</a></li>
+            <li><a href="#proxima">Próxima Semana</a></li>
             <li><a href="#trabalhos">Trabalhos Apresentados</a></li>
         </ul>
     </div> 
@@ -59,6 +60,14 @@ topologies. We test the algorithm on both theoretical and practical data sets.</
 
             <h1><a name="trabalhos"></a>Trabalhos Apresentados</h1>
             <ul>
+            
+                 <li><b>Expositor: </b> Viviana Vargas 
+                </br>
+                <b>Artigo: </b>  Computing smooth surface contours with accurate topology - Benard et al.</li>
+                <p><a href="http://www.labri.fr/perso/pbenard/publications/contours.html">[Artigo]</a> 
+                  <a href="http://liscustodio.github.io/seminario_2014_2/presentations/viviana.zip">[Apresentação]</a></p>
+                  
+                  
                 <li><b>Expositor: </b> Viviana Vargas 
                 </br>
                 <b>Artigo: </b>  Computing smooth surface contours with accurate topology - Benard et al.</li>
