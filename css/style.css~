@@ -115,7 +115,8 @@ a:hover { color: #333; text-decoration: none; }
 	
 	#maincont
 	{
-
+		width: 920px;
+		
 		padding: 20px 0;
 		background: url("../images/bg-maincont.gif") repeat-y;
 	}
